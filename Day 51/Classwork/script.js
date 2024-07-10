@@ -1,18 +1,18 @@
 const me = {
-    firstName: "Erekle",
-    surName: "Kilasonia",
+    firstname: "Erekle",
+    surname: "Kilasonia",
     age: 14
   };
   
 const teacher = {
-    firstName: "Luka",
-    surName: "Tskhvaradze",
+    firstname: "Luka",
+    surname: "Tskhvaradze",
     age: 17
 };
   
 console.log(me);
 console.log(teacher);
-console.log(me.firstName);
+console.log(me.firstname);
 console.log(me.age);
-console.log(teacher.firstName);
+console.log(teacher.firstname);
 console.log(teacher.age);
