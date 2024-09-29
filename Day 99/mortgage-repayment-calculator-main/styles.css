@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(202, 86%, 94%);
+    font-family: Plus Jakarta Sans;
+}
+.main{
+    width: 800px;
+    background-color: white;
+    height: 520px;
+    display: flex;
+    border-radius: 15px;
+
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+
+}
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: hsl(202, 55%, 16%);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+h3{
+    color: hsl(202, 55%, 16%);
+
+}
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.header a{
+    color: hsl(200, 24%, 40%);
+    font-size: 10px;
+    margin-top: 7.5px;
+    padding-right: 10px;
+}
+p{
+    font-size: 10px;
+    color:hsl(200, 24%, 40%) ;
+}
+.mortage{
+    padding-left: 42px;
+    padding-top: 25px;
+}
+.mortage p{
+    padding-bottom: 10px;
+}
+.input-container {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid hsl(200, 24%, 40%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+  
+.currency-symbol {
+    background-color: hsl(202, 86%, 94%); 
+    padding: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(200, 24%, 40%);
+}
+  
+.currency-input {
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    width: 278px;
+    text-align: left;
+    outline: none;
+}
+  
+.currency-input:focus {
+    border: none;
+    outline: none;
+}
+
+.text{
+    display: flex;
+    gap: 87px;
+}
+
+.text p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.mort-input-container {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid hsl(200, 24%, 40%);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    width: 137px;
+}
+  
+.year {
+    background-color: hsl(202, 86%, 94%); 
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(200, 24%, 40%);
+}
+  
+.years-input {
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    width: 82px;
+    text-align: left;
+    outline: none;
+}
+  
+.years-input:focus {
+    border: none;
+    outline: none;
+}
+.mortageRate{
+    padding-left: 42px;
+}
+
+.rate-input-container {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid hsl(200, 24%, 40%);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    width: 150px;
+}
+  
+.proc {
+    background-color: hsl(202, 86%, 94%); 
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: hsl(200, 24%, 40%);
+}
+  
+.rate-input {
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    width: 115px;
+    text-align: left;
+    outline: none;
+}
+  
+.rate-input:focus {
+    border: none;
+    outline: none;
+}
+.space{
+    display: inline-block;
+    width: 17px;
+}
+
+.Mortgage-Type {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 42px;
+}
+
+.repayment,.Interest-only {
+    width: 312px;
+    border: 1px solid hsl(200, 24%, 40%);
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.mort-text{
+    padding-left: 42px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+p{
+    font-weight: 700;
+}
+.space1{
+    height: 10px;
+}
+
+.gamot{
+    padding-left: 42px;
+}
+
+.button{
+    padding-left: 42px;
+    padding-top: 30px;
+}
+.button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(61, 70%, 52%);
+    border-radius: 30px;
+    border: none;
+    width: 230px;
+    height: 50px;
+    font-family: Plus Jakarta Sans;
+    color: hsl(202, 55%, 16%);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button button:hover{
+    background-color: rgb(235,237,151);
+}
+.button button img{
+    padding-right: 10px;
+}
+
+h2{
+    color: white;
+    font-weight: 500;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightafter{
+    background-color: hsl(202, 55%, 16%);
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+    gap: 20px;
+    display: none;
+}
+.rightafter p{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(200, 24%, 40%);
+    padding-bottom: 10px;
+}
+.money{
+    background-color: #0e2431;
+    width: 350px;
+    height: 200px;
+    border-top: 4px solid hsl(61, 70%, 52%);
+    border-radius: 10px;
+}
+h1{
+    color: hsl(61, 70%, 52%);
+}
+
+.line{
+    background-color: hsla(203, 87%, 94%, 0.217);
+    width: 310px;
+    height: 1px;
+}
+.linediv{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    position: relative;
+    top: 10px;
+    color: white;
+    display: inline-block;
+}
+#rateError{
+    padding-left: 63px;
+}
+#intError{
+    padding-left: 42px;
+}

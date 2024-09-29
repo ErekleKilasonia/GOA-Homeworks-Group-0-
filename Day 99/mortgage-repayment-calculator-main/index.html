@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+</head>
+<body>
+  <main>
+    <div class="main">
+        <div class="left">
+          <div class="header">
+            <h3>Mortgage Calculator</h3>
+            <a href="">Clear All</a>
+          </div>
+          <div class="mortage">
+            <p>Mortgage Amount</p>
+            <div class="input-container" id="input-container">
+              <span class="currency-symbol" id="currency-symbol">£</span>
+              <input type="text" class="currency-input" id="mortageAmount">
+            </div>
+            <p class="error" id="mortageError">This field is required</p>
+          </div>
+          <div class="mortageRate">
+            <div class="text">
+              <p class="morta">Mortgage Term</p>
+              <p>Interest Rate</p>
+            </div>
+            <div class="mort-input-container" id="mort-input-container">
+              <input type="text" class="years-input" id="years-input">
+              <span class="year" id="year">years</span>
+            </div>
+            <div class="space"></div>
+            <div class="rate-input-container" id="rate-input-container">
+              <input type="text" class="rate-input" id="rate-input">
+              <span class="proc" id="proc">%</span>
+            </div>
+            <p class="error" id="yearError">This field is required</p>
+            <p class="error" id="rateError">This field is required</p>
+          </div>
+          <p class="mort-text">Mortgage-Type</p>
+          <div class="Mortgage Type">
+            <div class="gamot"> 
+              <div class="repayment" id="rep">
+                  <input style="margin-right: 10px; font-size: 20px;" id="repayment1" type="radio" name="mortgage">
+                  <label for="repayment1">Repayment</label>
+              </div>
+              <div class="space1">
+              </div>
+              <div class="Interest-only" id="int">
+                  <input style="margin-right: 10px;" id="Interest-only1" type="radio" name="mortgage">
+                  <label for="Interest-only1">Interest-only</label>
+              </div>
+            </div>
+            <p class="error" id="intError">This field is required</p>
+            <div class="button">
+              <button id="btn"><img src="assets/images/icon-calculator.svg"> Calculate Repayments</button>
+            </div>
+        </div>
+          
+          
+          
+        </div>
+        <div class="right" id="right">
+          <div class="img">
+            <img src="assets/images/illustration-empty.svg" alt="">
+          </div>
+          <h2>Results shown here</h2>
+
+          <div class="text4" style="text-align: center;">
+            <p> Complete the form and click “calculate repayments” to 
+              
+            </p>
+            <p>see what your monthly repayments would be.</p>
+          </div>
+        </div>
+        <div class="rightafter" id="rightafter">
+          <h2>Your results</h2>
+          <p>Your results are shown below based on the information <br>
+          you provided. To adjust the results, edit the form and <br>
+          click “calculate repayments” again.</p>
+          <div class="money">
+            <p style="padding-left: 20px;padding-top: 20px;">Your monthly repayments</p>
+            <h1 style="padding-left: 20px;" id="monthly-rep">£0</h1>
+            <div class="linediv">
+              <div class="line">
+              </div>
+            </div>
+            <p style="padding-left: 20px;padding-top: 20px;">Total you'll repay over the term</p>
+            <p style="color: white;padding-left: 20px;font-size: 18px;" id="total-rep">£0</p>
+            
+          </div>
+        </div>
+        
+      </div>
+      </div>
+      
+    </div>
+  </main>
+  <script src="script.js"></script>
+  
+</body>
+</html>
